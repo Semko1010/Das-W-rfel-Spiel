@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background-image: linear-gradient(120deg,#f6d365, #c77059);
+    
+}
+
+
+.container{
+
+
+    width: 300px;
+    height: 280px;
+    background-color: rgb(126, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 2px solid black;
+    box-shadow: 5px  5px 0 0 black;
+    border-radius: 10%;
+    flex-direction: column;
+    
+    
+}
+
+
+.btn{
+    border-radius: 25%;
+    height: 40px;
+    width: 180px;
+    margin-top: 20px;
+    margin-right: 18%;
+    border: 2px solid black;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+}
+
+.btnNew{
+
+    background-color: blue;
+    
+}
+.btnNew:hover{
+
+    background-color: blue;
+}
+
+
+ #packet{
+    margin-top: 10px;
+    margin-right: 15%;
+    border-radius: 10%;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+
+}
+
+
+.inputContainer{
+    margin-top: 20px;
+    
+}
+
+.textfield{
+    
+    border: 2px solid  black;
+
+}
+
+.punkteNew{
+    display: flex;
+    justify-content: center;
+    
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: rgb(117, 185, 104);
+    text-shadow: 3px 3px 1px black;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.punkte{
+
+    
+    justify-content: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    color: rgb(54, 161, 32);
+    text-shadow: 3px 3px 1px black;
+    padding-top: 15px;
+    padding-left: 50px;
+    
+}
+
+
+.versucheCla{
+
+    display: flex;
+    height: 40px;
+    margin-bottom: 35px;
+    margin-top: 0px;
+    margin-left: 40px;
+    
+}
+
+.versuchePunkte{
+
+    font-size: 30px;
+    justify-content: center;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    text-shadow: 3px 3px 1px black;
+}
+    
+
+
+.newVersuche{
+
+    
+    justify-content: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    color: rgb(255, 0, 0);
+    text-shadow: 3px 3px 1px black;
+    padding-top: 15px;
+    padding-right: 60px;
+    margin-left: 35px;
+    
+}
+    
+
+
+
+.refresh{
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+    
+}
+.refresh:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+}
+.highscoreNew{
+    padding-left: 10px;
+    
+}
+
+.pHighscore{
+
+    text-align: center;
+    padding-left: 25px;
+    font-size: 45px;
+    
+}
+
+#zurücksetzen{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 50px;
+    color: red;
+}
+
+#zurücksetzen:hover{
+cursor: pointer;
+color: chartreuse;
+
+}
